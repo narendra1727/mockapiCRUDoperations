@@ -1,0 +1,42 @@
+input{
+    font-size: 25px;
+}
+
+.user-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.user-container{
+    border : 2px solid black;
+    border-radius:10px;
+    height:200px;
+    width:300px;
+    background-color: yellowgreen;
+    display:flex;
+    flex-direction: row;
+}
+
+.user-avatar{
+    height:100px;
+    width:100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-container:hover{
+    transform: scale(1.05);
+
+}
+
+button{
+    font-size:15px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+#edbutton{
+    visibility:hidden;
+}
